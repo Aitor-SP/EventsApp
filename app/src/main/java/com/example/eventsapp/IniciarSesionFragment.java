@@ -37,7 +37,7 @@ public class IniciarSesionFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 // Navegar a registro al clicar en el texto crear cuenta
-                navController.navigate(R.id.action_iniciarSesionFragment_to_registroFragment2);
+                navController.navigate(R.id.action_iniciarSesionFragment_to_registroFragment);
             }
         });
 
@@ -46,7 +46,7 @@ public class IniciarSesionFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 // Navegar a home/novedades al clickar en iniciar sesion
-                navController.navigate(R.id.action_iniciarSesionFragment_to_firstFragment22);
+                navController.navigate(R.id.action_iniciarSesionFragment_to_firstFragment);
             }
         });
     }
